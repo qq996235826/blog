@@ -2,6 +2,7 @@ package cn.deng.blog.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * @author deng
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
  * @date 2020/11/26 2:16
  */
 @Controller
+@RequestMapping("/blog")
 public class IndexController {
     /**
      * 创建方法,用于索引
