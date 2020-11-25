@@ -30,11 +30,8 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
         <!--日志-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-log4j2</artifactId>
-            <version>${spring.boot.version}</version>
-        </dependency>
+
+
         <!--使用thymeleaf模板引擎-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
